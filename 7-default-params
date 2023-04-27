@@ -1,0 +1,8 @@
+// default values for function
+const greeter = (name = 'user', age) => {
+console.log('hello ' + name);
+}
+
+greeter('Jesper');
+greeter();
+
